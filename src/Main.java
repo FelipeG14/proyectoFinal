@@ -20,5 +20,8 @@ public class Main {
 
         //Conocemos parte de la informacion
         HeroeTanque tanque1 = new HeroeTanque("Camila Ríos", 34, 88, "Titanio");
+
+        //Solo se conoce el nombre porque es nuevo recluta
+        HeroeTanque tanque2 = new HeroeTanque("Julián Restrepo");
     }
 }
