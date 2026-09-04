@@ -23,5 +23,8 @@ public class Main {
 
         //Solo se conoce el nombre porque es nuevo recluta
         HeroeTanque tanque2 = new HeroeTanque("Julián Restrepo");
+
+        //conocemos 3 parametros
+        HeroeSigiloso sigiloso1 = new HeroeSigiloso("Valeria Muñoz", 27, 76.5);
     }
 }
