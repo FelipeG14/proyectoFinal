@@ -74,4 +74,15 @@ public class HeroeTanque extends Heroe {
     public void setMaterialArmadura(String materialArmadura) {
         this.materialArmadura = materialArmadura;
     }
+
+    // toString
+
+    @Override
+    public String toString() {
+        return "HeroeTanque { " + super.toString() +
+                ", nivelResistencia=" + nivelResistencia +
+                ", pesoArmadura=" + pesoArmadura +
+                ", tieneEscudo=" + tieneEscudo +
+                ", materialArmadura='" + materialArmadura + "' }";
+    }
 }
