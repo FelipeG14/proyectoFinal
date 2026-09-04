@@ -31,5 +31,23 @@ public class Main {
         HeroeSigiloso sigiloso2 = new HeroeSigiloso(
                 "Santiago Peña", 31, 8.9, true,
                 95.0, 6, true, 'A');
+
+        // Impresión de todos los objetos usando toString()
+
+        System.out.println("-- Héroes generales --");
+        System.out.println(heroeSinAsignar);
+        System.out.println(heroeVeterano);
+
+        System.out.println("\n-- Héroes voladores --");
+        System.out.println(volador1);
+        System.out.println(volador2);
+
+        System.out.println("\n-- Héroes tanque --");
+        System.out.println(tanque1);
+        System.out.println(tanque2);
+
+        System.out.println("\n-- Héroes sigilosos --");
+        System.out.println(sigiloso1);
+        System.out.println(sigiloso2);
     }
 }
