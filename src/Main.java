@@ -17,5 +17,8 @@ public class Main {
         HeroeVolador volador2 = new HeroeVolador(
                 "Diego Fuentes", 29, 9.2, true,
                 950.5, 12000, true, 'A');
+
+        //Conocemos parte de la informacion
+        HeroeTanque tanque1 = new HeroeTanque("Camila Ríos", 34, 88, "Titanio");
     }
 }
