@@ -65,4 +65,12 @@ public class Heroe {
     public void setEsActivo(boolean esActivo) {
         this.esActivo = esActivo;
     }
+    // toString
+    @Override
+    public String toString() {
+        return "Heroe { nombreReal='" + nombreReal + "'" +
+                ", edad=" + edad +
+                ", poderNivel=" + poderNivel +
+                ", esActivo=" + esActivo + " }";
+    }
 }
