@@ -32,4 +32,37 @@ public class Heroe {
         this.poderNivel = poderNivel;
         this.esActivo = esActivo;
     }
+    // Getters y setters
+
+    public String getNombreReal() {
+        return nombreReal;
+    }
+
+    public void setNombreReal(String nombreReal) {
+        this.nombreReal = nombreReal;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public double getPoderNivel() {
+        return poderNivel;
+    }
+
+    public void setPoderNivel(double poderNivel) {
+        this.poderNivel = poderNivel;
+    }
+
+    public boolean isEsActivo() {
+        return esActivo;
+    }
+
+    public void setEsActivo(boolean esActivo) {
+        this.esActivo = esActivo;
+    }
 }
