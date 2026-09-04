@@ -4,11 +4,19 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("=== REGISTRO DE SUPERHEROES ===\n");
 
+        /**
+         * objetos de la super clase
+         */
+
         //recién ingresa al programa de reclutas
         Heroe heroeSinAsignar = new Heroe();
 
         //Toda la informacion basica
         Heroe heroeVeterano = new Heroe("Marco Salgado", 45, 7.8, true);
+
+        /**
+         * objetos de la clase HeroeVolador
+         */
 
         //Ya reclutado solo se sabe nombre
         HeroeVolador volador1 = new HeroeVolador("Ana Torres");
@@ -18,11 +26,19 @@ public class Main {
                 "Diego Fuentes", 29, 9.2, true,
                 950.5, 12000, true, 'A');
 
+        /**
+         * objetos de la clase HeroeTanque
+         */
+
         //Conocemos parte de la informacion
         HeroeTanque tanque1 = new HeroeTanque("Camila Ríos", 34, 88, "Titanio");
 
         //Solo se conoce el nombre porque es nuevo recluta
         HeroeTanque tanque2 = new HeroeTanque("Julián Restrepo");
+
+        /**
+         * objetos de la clase HeroeSigiloso
+         */
 
         //conocemos 3 parametros
         HeroeSigiloso sigiloso1 = new HeroeSigiloso("Valeria Muñoz", 27, 76.5);
