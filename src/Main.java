@@ -10,6 +10,7 @@ public class Main {
         //Toda la informacion basica
         Heroe heroeVeterano = new Heroe("Marco Salgado", 45, 7.8, true);
 
-
+        //Ya reclutado solo se sabe nombre
+        HeroeVolador volador1 = new HeroeVolador("Ana Torres");
     }
 }
