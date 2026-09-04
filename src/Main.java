@@ -26,5 +26,10 @@ public class Main {
 
         //conocemos 3 parametros
         HeroeSigiloso sigiloso1 = new HeroeSigiloso("Valeria Muñoz", 27, 76.5);
+
+        //aca tenemos todos los parametros del super heroe
+        HeroeSigiloso sigiloso2 = new HeroeSigiloso(
+                "Santiago Peña", 31, 8.9, true,
+                95.0, 6, true, 'A');
     }
 }
