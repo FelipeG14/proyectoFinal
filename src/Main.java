@@ -12,5 +12,10 @@ public class Main {
 
         //Ya reclutado solo se sabe nombre
         HeroeVolador volador1 = new HeroeVolador("Ana Torres");
+
+        //Heroe con expediente completo
+        HeroeVolador volador2 = new HeroeVolador(
+                "Diego Fuentes", 29, 9.2, true,
+                950.5, 12000, true, 'A');
     }
 }
