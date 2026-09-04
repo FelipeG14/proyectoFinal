@@ -73,4 +73,15 @@ public class HeroeSigiloso extends Heroe {
     public void setRangoSigilo(char rangoSigilo) {
         this.rangoSigilo = rangoSigilo;
     }
+
+    // toString
+
+    @Override
+    public String toString() {
+        return "HeroeSigiloso { " + super.toString() +
+                ", nivelInvisibilidad=" + nivelInvisibilidad +
+                ", numArmasSecretas=" + numArmasSecretas +
+                ", usaGadgets=" + usaGadgets +
+                ", rangoSigilo=" + rangoSigilo + " }";
+    }
 }
