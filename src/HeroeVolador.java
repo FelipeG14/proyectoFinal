@@ -74,4 +74,15 @@ public class HeroeVolador extends Heroe{
     public void setClasificacionVuelo(char clasificacionVuelo) {
         this.clasificacionVuelo = clasificacionVuelo;
     }
+
+    // toString
+
+    @Override
+    public String toString() {
+        return "HeroeVolador { " + super.toString() +
+                ", velocidadMaxima=" + velocidadMaxima +
+                ", altitudMaxima=" + altitudMaxima +
+                ", puedeCargarPasajeros=" + puedeCargarPasajeros +
+                ", clasificacionVuelo=" + clasificacionVuelo + " }";
+    }
 }
