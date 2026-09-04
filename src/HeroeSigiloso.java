@@ -79,9 +79,9 @@ public class HeroeSigiloso extends Heroe {
     @Override
     public String toString() {
         return "HeroeSigiloso { " + super.toString() +
-                ", nivelInvisibilidad=" + nivelInvisibilidad +
-                ", numArmasSecretas=" + numArmasSecretas +
-                ", usaGadgets=" + usaGadgets +
-                ", rangoSigilo=" + rangoSigilo + " }";
+                ", nivelInvisibilidad = " + nivelInvisibilidad +
+                ", numArmasSecretas = " + numArmasSecretas +
+                ", usaGadgets = " + usaGadgets +
+                ", rangoSigilo = " + rangoSigilo + " }";
     }
 }

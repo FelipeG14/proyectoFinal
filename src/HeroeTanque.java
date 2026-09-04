@@ -80,9 +80,9 @@ public class HeroeTanque extends Heroe {
     @Override
     public String toString() {
         return "HeroeTanque { " + super.toString() +
-                ", nivelResistencia=" + nivelResistencia +
-                ", pesoArmadura=" + pesoArmadura +
-                ", tieneEscudo=" + tieneEscudo +
-                ", materialArmadura='" + materialArmadura + "' }";
+                ", nivelResistencia = " + nivelResistencia +
+                ", pesoArmadura = " + pesoArmadura +
+                ", tieneEscudo = " + tieneEscudo +
+                ", materialArmadura = '" + materialArmadura + "' }";
     }
 }

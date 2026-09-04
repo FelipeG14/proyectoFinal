@@ -80,9 +80,9 @@ public class HeroeVolador extends Heroe{
     @Override
     public String toString() {
         return "HeroeVolador { " + super.toString() +
-                ", velocidadMaxima=" + velocidadMaxima +
-                ", altitudMaxima=" + altitudMaxima +
-                ", puedeCargarPasajeros=" + puedeCargarPasajeros +
-                ", clasificacionVuelo=" + clasificacionVuelo + " }";
+                ", velocidadMaxima = " + velocidadMaxima +
+                ", altitudMaxima = " + altitudMaxima +
+                ", puedeCargarPasajeros = " + puedeCargarPasajeros +
+                ", clasificacionVuelo = " + clasificacionVuelo + " }";
     }
 }

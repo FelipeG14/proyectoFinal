@@ -69,9 +69,9 @@ public class Heroe {
     // toString
     @Override
     public String toString() {
-        return "Heroe { nombreReal='" + nombreReal + "'" +
-                ", edad=" + edad +
-                ", poderNivel=" + poderNivel +
-                ", esActivo=" + esActivo + " }";
+        return "Heroe { nombreReal = '" + nombreReal + "'" +
+                ", edad = " + edad +
+                ", poderNivel = " + poderNivel +
+                ", esActivo = " + esActivo + " }";
     }
 }
